@@ -35,7 +35,7 @@ const items = [
 ]
 
 export default () => {
-    const [selected, setSelected] = useState(options[0])
+    const [selected, setSelected] = useState({label: 'None'})
     return (
         <div>
             {/* <Accordion items={items}/> */}
