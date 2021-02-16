@@ -46,6 +46,10 @@ const showList = () => {
     } 
 }
 
+const showComponent = (route, component) => {
+    return window.location.pathname === route ? component: null
+}
+
 export default () => {
     const [selected, setSelected] = useState({label: 'None'})
     const [showDropdown, setShowDropdown] = useState(true)
