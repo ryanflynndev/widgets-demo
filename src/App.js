@@ -55,7 +55,9 @@ export default () => {
     const [showDropdown, setShowDropdown] = useState(true)
     return (
         <div>
-            <Route></Route>
+            <Route path="/">
+                <Accordion items={items}/>
+            </Route>
 
         </div>
     )
