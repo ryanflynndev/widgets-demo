@@ -58,6 +58,12 @@ export default () => {
             <Route path="/">
                 <Accordion items={items}/>
             </Route>
+            <Route path="/list">
+                <Search />
+            </Route>
+            <Route path="/dropdown">
+                <Dropdown/>
+            </Route>
 
         </div>
     )
