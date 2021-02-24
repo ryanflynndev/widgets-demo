@@ -62,7 +62,12 @@ export default () => {
                 <Search />
             </Route>
             <Route path="/dropdown">
-                <Dropdown/>
+                <Dropdown
+                label="Select a color"
+                options={options}
+                selected={selected}
+                onSelectedChange={setSelected}
+                />
             </Route>
 
         </div>
